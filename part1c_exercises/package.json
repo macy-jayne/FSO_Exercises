@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node main.jsx",
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "server": "json-server -p 3001 db.json"
